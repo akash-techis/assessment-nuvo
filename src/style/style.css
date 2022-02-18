@@ -1,0 +1,42 @@
+.heading p{
+    padding: 10px 35%;
+}
+.select{
+    display: flex;
+    margin-left: 14%;
+}
+
+.select .productImg{
+    width: 25%;
+    padding: 30px;
+
+}
+
+.select p{
+    padding: 50px;
+}
+
+.description-hide{
+    display: none;
+}
+#root .items {
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    
+}
+#root .items .description {
+    background: white;
+}
+button {
+    margin: 200% 0% 0% 0%;
+    padding: 9px;
+    background: dodgerblue;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+}
+h2 {
+    display: grid;
+    justify-content: flex-start;
+}
