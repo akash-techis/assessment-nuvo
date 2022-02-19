@@ -37,6 +37,24 @@ button {
     border-style: none;
 }
 h2 {
-    display: grid;
-    justify-content: flex-start;
+    text-align: start;
+    padding: 0px 20px;
+}
+@media screen and (max-width: 450px)  {
+  #root .items {
+      flex-direction: column;
+      width: 100%;
+  }
+  button {
+      margin: 0;
+  }
+}
+@media screen and (min-width:450px) and (max-width:850px) {
+ #root .items {
+     flex-direction: column;
+     width: 100%;
+ }  
+ button{
+     margin: 0;
+ }  
 }
