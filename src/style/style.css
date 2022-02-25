@@ -43,6 +43,7 @@ h2 {
 
 .arr_img{
     width: 10%;
+    margin: 56px;
 }
 @media screen and (max-width: 450px)  {
   #root .items {
