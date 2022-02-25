@@ -1,68 +1,66 @@
-.heading p{
-    padding: 10px 35%;
+.heading p {
+  padding: 10px 35%;
 }
-.select{
-    display: flex;
-    margin-left: 14%;
-}
-
-.select .productImg{
-    width: 25%;
-    padding: 30px;
-
+.select {
+  display: flex;
+  margin-left: 14%;
 }
 
-.select p{
-    padding: 50px;
+.select .productImg {
+  width: 25%;
+  padding: 30px;
 }
 
-.description-hide{
-    display: none;
+.select p {
+  padding: 50px;
+}
+
+.description-hide {
+  display: none;
 }
 #root .items {
-    display: flex;
-    width: 80%;
-    margin: 50px auto;
-    
+  display: flex;
+  width: 80%;
+  margin: 50px auto;
 }
 #root .items .description {
-    background: white;
+  background: white;
 }
 button {
-    margin: 200% 0% 0% 0%;
-    padding: 9px;
-    background: dodgerblue;
-    color: white;
-    border-radius: 10px;
-    border-style: none;
+  margin: 200% 0% 0% 0%;
+  padding: 9px;
+  background: dodgerblue;
+  color: white;
+  border-radius: 10px;
+  border-style: none;
 }
 h2 {
-    text-align: start;
-    padding: 0px 20px;
+  text-align: start;
+  padding: 0px 20px;
 }
 
-.arr_img{
-    width: 10%;
-    margin: 56px;
+.arr_img {
+  width: 10%;
+  margin: 56px;
 }
-@media screen and (max-width: 450px)  {
+@media screen and (max-width: 450px) {
   #root .items {
-      flex-direction: column;
-      width: 100%;
+    flex-direction: column;
+    width: 100%;
   }
   button {
-      margin: 0;
+    margin: 0;
   }
 }
-@media screen and (min-width:450px) and (max-width:850px) {
- #root .items {
-     flex-direction: column;
-     width: 100%;
- }  
- button{
-     margin: 0;
- }  
+@media screen and (min-width: 450px) and (max-width: 850px) {
+  #root .items {
+    flex-direction: column;
+    width: 100%;
+  }
+  button {
+    margin: 0;
+  }
 }
 .items .home-description {
-    margin: 0 41px 0 0;
+  margin: 0 41px 0 0;
 }

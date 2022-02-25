@@ -1,9 +1,9 @@
-import React from 'react'
-import '../style/style.css'
+import React from "react";
+import "../style/style.css";
 
 const Heading = () => {
   return (
-    <div className='heading'>
+    <div className="heading">
       <h1>Heading</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste doloribus
@@ -12,6 +12,6 @@ const Heading = () => {
       </p>
     </div>
   );
-}
+};
 
-export default Heading
+export default Heading;

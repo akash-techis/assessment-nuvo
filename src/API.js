@@ -3,13 +3,13 @@ import axios from 'axios';
 const baseURL = "https://fakestoreapi.com/";
 const api = axios.create({
     baseURL: baseURL,
-    headers:{
+    headers: {
         "Content-Type": "application/json",
     },
 });
 
 export default class API {
-    fetchProducts = async(params) => {
-        return api.get("/products/", {params});
+    fetchProducts = async (params) => {
+        return api.get("/products/", { params });
     };
 }

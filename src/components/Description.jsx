@@ -1,14 +1,14 @@
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from "react";
 
-const Description = ({product, selected}) => {
-     const [productDetails, setProductDetails] = useState("");
-      useEffect(() => {
-          if (product.id === selected) {
-            setProductDetails("description");
-          } else {
-            setProductDetails(" description-hide");
-          }
-      }, [selected]);
+const Description = ({ product, selected }) => {
+  const [productDetails, setProductDetails] = useState("");
+  useEffect(() => {
+    if (product.id === selected) {
+      setProductDetails("description");
+    } else {
+      setProductDetails(" description-hide");
+    }
+  }, [selected]);
   return (
     <div>
       <div className={productDetails} key={product.id}>
@@ -17,10 +17,9 @@ const Description = ({product, selected}) => {
         <h3>rating: {product.rating.rate}</h3>
         <h3>count: {product.rating.count}</h3>
         <button>Add to Cart</button>
-       
       </div>
     </div>
   );
-}
+};
 
-export default Description
+export default Description;
